@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 4</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Akhir bootstrap -->
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Icon -->
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Akhir CSS -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-secondary">
+        <div class="container">
+          <a class="navbar-brand text-dark fw-bold fs-5" href="#">
+            <img src="img/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Btube <i class="bi bi-play-btn text-light"></i>
+          </a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 bg-dark text-light" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark" type="submit"><i class="bi bi-search"></i></button>
+          </form>      
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/foto1.jpg" class="d-block w-100" alt="foto1" style="height: 200px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto2.jpg" class="d-block w-100" alt="foto1" style="height: 200px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto3.jpg" class="d-block w-100" alt="foto1" style="height: 200px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Carousel -->
+
+    <!-- grid video -->
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-light mt-4 justify-content-start tks">Rekomendasi :</h3>
+                </div>
+            </div>
+            <div class="row ms-5 row1">
+                <div class="col-md-3 ms-4 mt-5" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 1.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 2</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">video 3</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 4</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 5</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 6</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- Akhir Grid video -->
+
+      <hr class="text-secondary pt-3 shadow-lg" style="width: 100%">
+      
+      <!-- Postingan -->
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-light mt-3">Postingan terbaru</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 ms-3 mt-5 col">
+                    <div class="card bg-secondary text-light shadow-lg" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-emoji-sunglasses"></i> Alam</h5>
+                          <h6 class="card-subtitle mb-2 text-light">4 Juli 2022</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-3 mt-5 col">
+                    <div class="card bg-secondary text-light shadow-lg" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="bi bi-emoji-expressionless"></i> Jana</h5>
+                          <h6 class="card-subtitle mb-2 text-light">4 Juli 2022</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ms-3 mt-5 col">
+                    <div class="card bg-secondary text-light shadow-lg" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-emoji-smile"></i> Yadzka</h5>
+                            <h6 class="card-subtitle mb-2 text-light">4 Juli 2022</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Akhir postingan -->
+
+      <hr class="text-secondary pt-3 shadow-lg" style="width: 100%">
+
+      <!-- grid video -->
+      <section>
+          <div class="container">
+            <div class="row ms-5 row1">
+                <div class="col-md-3 ms-4 mt-5 col" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 1.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5 col" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 2</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5 col" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">video 3</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5 col" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 4</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5 col" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 5</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ms-4 mt-5 col" id="gbr">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="img/foto12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-light">Video 6</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- Akhir Grid video -->
+
+    <hr class="text-secondary pt-3 shadow-lg" style="width: 100%">
+
+    <!-- Footer -->
+    <footer class="text-center text-light fw-bold p-5">
+        <p class="pt-4 pb-3">Dibuat oleh Farish</p>
+      </footer>
+    <!-- Akhir footer -->
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- JS -->
+  </body>
+</html>
